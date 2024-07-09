@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: BarlowBlack;
+    src: url(./assets/fonts/BarlowCondensed-Black.ttf);
+}
+@font-face {
+    font-family: BarlowBold;
+    src: url(./assets/fonts/BarlowCondensed-Bold.ttf);
+}
+
+.slide-in{
+
+    transform-origin: bottom;
+
+}
+.slide-out{
+
+    transform-origin: top;
+}
+
+@media (max-width:600px) {
+    .width{
+        height: 1vw;
+        width: 1vw;
+    }
+    .hii{
+        left:55%
+    }
+}
+
